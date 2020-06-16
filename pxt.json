@@ -1,0 +1,23 @@
+{
+    "name": "LM75A",
+    "version": "0.0.0",
+    "description": "LM75A tempature drive for microbit",
+    "license": "MIT",
+    "dependencies": {
+        "core": "*",
+        "radio": "*"
+    },
+    "files": [
+        "README.md",
+        "LM75A.ts",
+        "main.py"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "public": true,
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "tsprj"
+}
