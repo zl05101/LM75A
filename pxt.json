@@ -5,12 +5,10 @@
     "license": "MIT",
     "dependencies": {
         "core": "*",
-        "radio": "*"
     },
     "files": [
         "README.md",
         "LM75A.ts",
-        "main.py"
     ],
     "testFiles": [
         "test.ts"
