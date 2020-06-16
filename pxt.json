@@ -4,14 +4,14 @@
     "description": "LM75A tempature drive for microbit",
     "license": "MIT",
     "dependencies": {
-        "core": "*",
+        "core": "*"
     },
     "files": [
         "README.md",
-        "LM75A.ts",
+        "LM75A.ts"
     ],
     "testFiles": [
         "test.ts"
     ],
-    "public": true,
+    "public": true
 }
