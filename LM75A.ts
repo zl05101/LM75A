@@ -21,7 +21,10 @@ namespace LM75A{
         let real_value = 1000.00;
         pins.i2cWriteNumber(LM75A_BASE_ADDRESS, 0x0, NumberFormat.UInt8LE, false)
         let result = pins.i2cReadNumber(LM75A_BASE_ADDRESS, NumberFormat.UInt16LE, false)
-        let refactored_value = result >> 5;
+        let lowByte = (result>>8)&0xFF
+        let highByte = result&0xFF
+        let refactored_value = highByte << 8 | lowByte;
+        refactored_value = refactored_value >> 5;
         if (refactored_value & 0x0400){
             refactored_value |= 0xF800;
             refactored_value = ~refactored_value + 1;
