@@ -1,5 +1,5 @@
 {
-    "name": "LM75A",
+    "name": "pxt-LM75A",
     "version": "0.0.1",
     "description": "LM75A tempature drive for microbit",
     "license": "MIT",
