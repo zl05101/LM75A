@@ -32,6 +32,6 @@ namespace LM75A{
         } else{
             real_value = refactored_value * LM75A_DEGREES_RESOLUTION
         }
-        return real_value;
+        return real_value.toFixed(1);
     }
 }
