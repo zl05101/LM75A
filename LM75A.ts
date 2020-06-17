@@ -4,7 +4,7 @@
 * http://www.micropython.org.cn
 */
 
-//% weight=20 color=#0855AA icon="\uf043" block="心点温度传感器"
+//% weight=20 color=#0855AA icon="\uf043" block="温度传感器"
 namespace LM75A{
     let LM75A_BASE_ADDRESS = 0x48;
     let LM75A_DEGREES_RESOLUTION = 0.125;
